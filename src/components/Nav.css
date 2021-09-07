@@ -1,0 +1,18 @@
+.main-header-menu {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    /* float: right; */
+    height: 100px;
+    /* justify-content: space-between; */
+    width: 100%;
+    /* max-width: 1300px; */
+    margin: 0;
+    padding: 0 0 0 50px;
+    z-index: 1;
+    flex-grow: 1;
+    background: rgb(247, 236, 217);
+    list-style: none;
+    color: black;
+};
+
+
