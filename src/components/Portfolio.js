@@ -2,10 +2,11 @@ import React from 'react';
 import ProjectOne from '../Assets/LetsSettleItProject.png';
 import ProjectTwo from '../Assets/hobnob-project2.png';
 import ProjectThree from '../Assets/QuotesProject.png';
+import './Portfolio.css';
 
 export default function Portfolio() {
     return (
-        <div>
+        <div className="portfolio-space">
             <h2 id="projects">My Work/Projects</h2>
             <img href="https://magnetmoss.github.io/Lets-Settle-It/" src={ ProjectOne } alt="Let's Settle It application page" style={{ width: "50%" }}/>
             <h3><a href="https://magnetmoss.github.io/Lets-Settle-It/">Project 1</a></h3>
